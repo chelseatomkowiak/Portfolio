@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="portfolio2.css" type="text/css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Josefin+Sans|Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+
+
+<script>
+function toggleNavPanel(x){
+    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="165px";
+    if(panel.style.height == maxH){
+        panel.style.height = "0px";
+        navarrow.innerHTML = "&#9662;";
+    } else {
+        panel.style.height = maxH;
+        navarrow.innerHTML = "&#9652;";
+    }
+}
+</script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+
+
+
+
+<div id="left">
+<div id="topbar">
+  <div id="sections_btn_holder">
+    <button onclick="toggleNavPanel('sections_panel')">Menu<span id="navarrow">&#9662;</span></button>
+  </div>
+  <div id="sections_panel">
+    <div id="menuLinks">
+      Home<br>My Portfolio<br>Resume<br>Contact Me
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="middle">
+
+<div id="header">
+Chelsea Tomkowiak
+</div>
+
+<div id="header2">
+Front End Developer / Creator / Aspiring Fullstack Developer
+</div>
+
+
+<div id="text">
+<p>
+Hi!  My name is Chelsea Tomkowiak.  I am a web developer from the beautiful land of Wisconsin.
+My areas of specialty are HTML5, CSS3, JavaScript, JQuery, GitHub, open-source collaborations, 
+and drinking large amounts of java...I mean coffee. 
+</p>
+<br>
+<p>
+I can work with anyone remotely from my office and collaborate via GitHub if needed.  I create clean,
+functional code to meet your needs.
+</p>
+</div>
+
+<div id="image">
+<img src="https://c1.staticflickr.com/5/4327/35162694743_39ce3a588e_m.jpg" id="roundCorners">
+</div>
+
+</div>
+
+<div id="right">
+<div id="twitter">
+<a href="http://www.facebook.com" target="_blank"><img class="icons" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width="42" height="42">
+</a>
+<a href="http://www.twitter.com" target="_blank"><img class="icons" src="https://www.pi-expertises.com/wp-content/uploads/2016/10/twitter-bird-white-on-blue.png" width="42" height="42">
+</a>
+<a href="http://www.linkedin.com" target="_blank"><img class="icons" src="https://www.interactivebrokers.com/images/2015/icon-social-square-linkedin.png" width="42" height="42">
+</a>
+<a href="http://www.github.com" target="_blank"><img class="icons" src="http://sparshith.com/cv/github.png" width="42" height="42">
+</a>
+</div>
+</div>
+
+</div>
+
+</body>
+
+</html>

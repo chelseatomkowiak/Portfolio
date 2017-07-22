@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-align: center;
+}
+
+html {
+	background: url(https://c1.staticflickr.com/5/4327/35645987600_56e74d1536_h.jpg); 
+	background-attachment: fixed;
+}
+
+#wrapper {
+    display: inline-block;
+	background: rgba(54, 25, 25, .2);
+}
+
+#left {
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+	text-align: left;
+	background: transparent;
+	float: left;
+}
+
+#middle {
+    width: 50%;
+	display: inline-block;
+	background: rgba(255, 255, 255, .2);
+}
+
+#right {
+	display: inline-block;
+	vertical-align: top;
+	width: 21%;
+	padding-top: 10px;
+}
+
+#twitter {
+	position: fixed;
+	display: inline-block;
+	text-align: right;
+}
+
+#header {
+	    font-family: 'Amatic SC';
+		font-size: 120px;
+}
+
+#header2 {
+    font-family: 'Amatic SC';
+	font-size: 35px;
+}
+
+#roundCorners {
+	border-radius: 100%;
+} 
+
+.icons {
+	border-radius: 10%;
+}
+
+#text {
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	margin-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#image {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+#sections_btn_holder{
+	float: left;
+	height: 40px;
+	padding-top: 16px;
+	padding-left: 14px;
+	border-style: none;
+}
+div#topbar > #sections_btn_holder > button{ 
+    background: transparent; 
+	color:white; 
+	font-size: 27px; 
+	font-family: 'Amatic SC';
+	width: 202px;
+	position: fixed;
+	border-style: none;
+	}
+
+#sections_panel{
+	position: absolute;
+	height: 0px;
+	width: 200px;
+	background: transparent;
+	margin-top: 60px;
+	left: 15px;
+	border-radius: 0px 0px 8px 8px;
+	overflow: hidden;
+	z-index: 10000;
+	transition: height 0.3s linear 0s;
+	font-family: 'Amatic SC';
+	font-size: 30px;
+	color: white;
+	padding: 0px 0px 0px 10px;
+}
+
